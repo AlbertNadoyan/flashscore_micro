@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api_gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/league_service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/player_service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sport_service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/team_service" vcs="Git" />
   </component>
 </project>

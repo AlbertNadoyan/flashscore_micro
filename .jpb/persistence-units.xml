@@ -2,9 +2,9 @@
 <project version="4">
   <component name="PersistenceUnitSettings">
     <persistence-units>
-      <persistence-unit name="Default">
+      <persistence-unit name="Default" defaultIncludeChangeLogFile="sport_service/src/main/resources/db/changelog/migration_sport.xml">
         <packages>
-          <package value="com.example.sport_service" />
+          <package value="com.example.team_service" />
         </packages>
       </persistence-unit>
     </persistence-units>

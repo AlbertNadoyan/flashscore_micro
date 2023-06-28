@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
+    <option name="sourceModelValue" value="Default" />
+    <option name="targetDbValue" value="6fb06e4b-d29d-4b73-bdd3-caee12bc1051" />
+    <option name="snapshotDbValue" value="6fb06e4b-d29d-4b73-bdd3-caee12bc1051" />
   </component>
 </project>

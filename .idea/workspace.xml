@@ -1,28 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="" />
+    <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/src/main/java/com/example/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/src/test/java/com/example/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/src/test/java/com/example/eureka_server/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flashscore_micro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/LeagueServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/controller/LeagueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/dto/LeagueRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/dto/LeagueResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/entity/League.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/entity/enums/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/mapper/LeagueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/repository/LeagueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/service/LeagueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/service/clientService/SportServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/java/com/example/league_service/service/impl/LeagueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/main/resources/db/changelog/migration_league.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service/src/test/java/com/example/league_service/LeagueServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/src/main/java/com/example/player_service/PlayerServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/src/main/java/com/example/player_service/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player_service/src/test/java/com/example/player_service/PlayerServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/SportServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/controller/SportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/dto/SportRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/dto/SportResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/entity/Sport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/entity/enums/SportType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/mapper/SportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/repository/SportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/service/SportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/service/impl/SportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/main/resources/db/changelog/migration_sport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service/src/test/java/com/example/sport_service/SportServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/TeamServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/controller/TeamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/dto/TeamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/dto/TeamResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/entity/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/mapper/TeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/repository/TeamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/service/TeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/service/clientService/LeagueServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/service/clientService/SportServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/java/com/example/team_service/service/impl/TeamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/main/resources/db/changelog/migration_team.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service/src/test/java/com/example/team_service/TeamServiceApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="com.haulmont.jpb.JpaLiquibaseChangeLog" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2RcAp9bLg5HWEE7nwfJjdUDmlHv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/kinogo-spring-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "2fce2810ef366410fda2ce4e86172ed7",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.league_service.entity.enums" />
+      <recent name="com.example.sport_service.entity.enums" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.team_service [clean,install]">
+    <configuration name="league_service [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/league_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="sport_service [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/sport_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="team_service [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/team_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api_gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka_server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kafka_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kafka_producer.KafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeagueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="league_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.league_service.LeagueServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="player_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.player_service.PlayerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SportServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sport_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sport_service.SportServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="team_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.team_service.TeamServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.team_service [clean,install]" />
+      <item itemvalue="Maven.league_service [clean,install]" />
+      <item itemvalue="Maven.sport_service [install]" />
+      <item itemvalue="Spring Boot.KafkaProducerApplication" />
+      <item itemvalue="Spring Boot.TeamServiceApplication" />
+      <item itemvalue="Spring Boot.PlayerServiceApplication" />
+      <item itemvalue="Spring Boot.LeagueServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.SportServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.team_service [clean,install]" />
+        <item itemvalue="Maven.league_service [clean,install]" />
+        <item itemvalue="Maven.sport_service [install]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,11 +339,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687539177193</updated>
-      <workItem from="1687539178247" duration="2000" />
+      <workItem from="1687539178247" duration="5230000" />
+      <workItem from="1687588011775" duration="1645000" />
+      <workItem from="1687589671337" duration="580000" />
+      <workItem from="1687590279708" duration="6521000" />
+      <workItem from="1687599339902" duration="6482000" />
+      <workItem from="1687605920101" duration="2912000" />
+      <workItem from="1687626857373" duration="1604000" />
+      <workItem from="1687687719645" duration="3023000" />
+      <workItem from="1687691763835" duration="2058000" />
+      <workItem from="1687697577581" duration="1798000" />
+      <workItem from="1687699411533" duration="9374000" />
+      <workItem from="1687777354208" duration="5641000" />
+      <workItem from="1687798771607" duration="3273000" />
+      <workItem from="1687946056683" duration="2008000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
