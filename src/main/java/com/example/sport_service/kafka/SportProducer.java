@@ -1,7 +1,6 @@
 package com.example.sport_service.kafka;
 
 import com.example.sport_service.dto.SportRequest;
-import com.example.sport_service.entity.Sport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
