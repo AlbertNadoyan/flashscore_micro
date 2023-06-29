@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="Microservices, kafka exam commit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_gateway" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/league_service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport_service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team_service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f78caca7c3df842653d15d6417086bf3&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;81fb6053a2df1a34e18ba1e477a229bb&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -319,7 +304,8 @@
       <workItem from="1687948811689" duration="8543000" />
       <workItem from="1688021644225" duration="8175000" />
       <workItem from="1688053398083" duration="1676000" />
-      <workItem from="1688070051432" duration="870000" />
+      <workItem from="1688070051432" duration="1220000" />
+      <workItem from="1688071363003" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="Microservices commit">
       <created>1687948471977</created>
@@ -335,11 +321,29 @@
       <option name="project" value="LOCAL" />
       <updated>1688053303444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Microservices, kafka exam commit">
+      <created>1688071173129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688071173129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
