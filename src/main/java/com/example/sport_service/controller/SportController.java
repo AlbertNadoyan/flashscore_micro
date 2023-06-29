@@ -3,9 +3,12 @@ package com.example.sport_service.controller;
 import com.example.sport_service.dto.SportRequest;
 import com.example.sport_service.dto.SportResponse;
 import com.example.sport_service.entity.Sport;
+import com.example.sport_service.entity.enums.SportType;
+import com.example.sport_service.kafka.SportProducer;
 import com.example.sport_service.mapper.SportMapper;
 import com.example.sport_service.service.SportService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +21,7 @@ import java.util.Optional;
 public class SportController {
     private final SportService sportService;
     private final SportMapper sportMapper;
+    private final SportProducer sportProducer;
 
     @GetMapping
     public List<SportResponse> getAllSport(){
@@ -30,10 +34,16 @@ public class SportController {
         return byId.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
-    public ResponseEntity<?> createSport(@RequestBody SportRequest sportRequest){
-        Sport sport = sportService.createSport(sportMapper.map(sportRequest));
-        return ResponseEntity.ok(sport);
+//    @PostMapping
+//    public ResponseEntity<?> createSport(@RequestBody SportRequest sportRequest){
+//        Sport sport = sportService.createSport(sportMapper.map(sportRequest));
+//        return ResponseEntity.ok(sport);
+//    }
+
+    @PostMapping()
+    public ResponseEntity<?> sendSportMessage(@RequestBody SportRequest sportRequest) {
+        sportProducer.sendMessage(sportRequest);
+        return ResponseEntity.status(HttpStatus.CREATED).body("Sport message sent successfully");
     }
 
     @DeleteMapping("/{id}")
