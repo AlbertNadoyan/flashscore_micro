@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka_server" />
-        <module name="player_service" />
         <module name="api_gateway" />
       </profile>
       <profile name="Annotation profile for team_service" enabled="true">
@@ -28,6 +27,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafka_producer" target="17" />
+      <module name="player_service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

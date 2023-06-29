@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="Microservices commit">
-      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/config/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="Microservices, kafka exam commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fb06e4b-d29d-4b73-bdd3-caee12bc1051/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/league_service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sport_service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team_service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/controller/SportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/controller/SportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/entity/enums/SportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/entity/enums/SportType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sport_service/src/main/java/com/example/sport_service/kafka/SportProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +317,9 @@
       <workItem from="1687946056683" duration="2361000" />
       <workItem from="1687948652929" duration="142000" />
       <workItem from="1687948811689" duration="8543000" />
-      <workItem from="1688021644225" duration="8069000" />
+      <workItem from="1688021644225" duration="8175000" />
+      <workItem from="1688053398083" duration="1676000" />
+      <workItem from="1688070051432" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="Microservices commit">
       <created>1687948471977</created>
@@ -319,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687948471978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Microservices, kafka exam commit">
+      <created>1688053303444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688053303444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +344,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Microservices commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microservices commit" />
+    <MESSAGE value="Microservices, kafka exam commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservices, kafka exam commit" />
   </component>
 </project>
