@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="Microservices, kafka exam commit">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/api_gateway" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/eureka_server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/league_service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/sport_service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/team_service" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="a07cd40d-f636-4c21-8ae8-558c1dde2278" />
-        <option name="url" value="https://github.com/AlbertNadoyan/flashscore_micro.git" />
+        <option name="url" value="https://github.com/AlbertNadoyan/flashscore_micro" />
       </UrlAndAccount>
     </option>
   </component>
@@ -87,6 +83,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ],
     "DatabaseDriversLRU": [
       "mysql"
     ]
@@ -335,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688137581245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Microservices, kafka exam commit">
+      <created>1688138993184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688138993185</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Microservices, kafka exam commit">
+      <created>1688139298195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688139298195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
