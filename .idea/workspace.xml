@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ea7b3ae5-ce50-4961-bb63-e5fef9ac687f" name="Changes" comment="Microservices, kafka exam commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/api_gateway" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/eureka_server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/league_service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/sport_service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/team_service" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sport_service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api_gateway" />
     <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -107,7 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SportServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="flashscore_micro [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -224,23 +230,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="kafka_producer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kafka_producer.KafkaProducerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeagueServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="league_service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.league_service.LeagueServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="player_service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.player_service.PlayerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,9 +256,7 @@
       <item itemvalue="Maven.team_service [clean,install]" />
       <item itemvalue="Maven.league_service [clean,install]" />
       <item itemvalue="Maven.sport_service [install]" />
-      <item itemvalue="Spring Boot.KafkaProducerApplication" />
       <item itemvalue="Spring Boot.TeamServiceApplication" />
-      <item itemvalue="Spring Boot.PlayerServiceApplication" />
       <item itemvalue="Spring Boot.LeagueServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -331,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688071173129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Microservices, kafka exam commit">
+      <created>1688137340435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688137340435</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Microservices, kafka exam commit">
+      <created>1688137581245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688137581245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
