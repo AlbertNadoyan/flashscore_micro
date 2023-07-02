@@ -37,7 +37,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="a07cd40d-f636-4c21-8ae8-558c1dde2278" />
-        <option name="url" value="https://github.com/AlbertNadoyan/flashscore_micro" />
+        <option name="url" value="https://github.com/AlbertNadoyan/flashscore_micro.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -78,8 +78,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "spring.configuration.checksum": "81fb6053a2df1a34e18ba1e477a229bb",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "d9164163def19488390ef8363ffe4580",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -298,6 +298,7 @@
       <workItem from="1688053398083" duration="1676000" />
       <workItem from="1688070051432" duration="1220000" />
       <workItem from="1688071363003" duration="1616000" />
+      <workItem from="1688295811658" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="Microservices commit">
       <created>1687948471977</created>
@@ -348,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688139298195</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Microservices, kafka exam commit">
+      <created>1688142137574</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688142137577</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
